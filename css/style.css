@@ -386,15 +386,15 @@ h6 {
   
 }
 
-.project4::after {
+.project5::after {
   content: "Coronavirus Map";
   font-family: 'Courier New';
   font-size: 36px;
   position: relative;
   color: #fff;
   display: block;
-  top:90%;
-  left: 20%;
+  top: 80%;
+  left: -50%;
   right: 0;
   bottom: 0;
 }

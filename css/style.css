@@ -380,6 +380,25 @@ h6 {
   bottom: 0;
 }
 
+.project5 {
+  background: url(../img/covid.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  
+}
+
+.project4::after {
+  content: "Coronavirus Map";
+  font-family: 'Courier New';
+  font-size: 36px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top:90%;
+  left: 20%;
+  right: 0;
+  bottom: 0;
+}
+
 @media(max-width: 768px) {
   .project {
     width: 90% !important;
@@ -390,7 +409,7 @@ h6 {
     display: none;
   }
 
-  .project1::after, .project2::after, .project3::after, .project4::after {
+  .project1::after, .project2::after, .project3::after, .project4::after, .project5::after  {
     display: none;
   }
 }
@@ -549,6 +568,11 @@ h6 {
 
 .image5 {
   background: url(../img/meme.jpeg) no-repeat 70% 50%;
+  background-size: cover;
+}
+
+.image6 {
+  background: url(../img/covid.jpeg) no-repeat 70% 50%;
   background-size: cover;
 }
 /*contact*/
